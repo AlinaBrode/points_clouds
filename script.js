@@ -5,8 +5,8 @@ const initBtn = document.getElementById('init');
 const distSelect = document.getElementById('distribution');
 
 const POINT_COUNT = 100;
-const DESIRED_DIST = 10;
-const STEP_SIZE = 0.01; // learning rate
+const DESIRED_DIST = 100;
+const STEP_SIZE = 0.0001; // learning rate
 let points = [];
 let running = false;
 
